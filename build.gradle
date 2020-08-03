@@ -1,7 +1,8 @@
 plugins {
     id 'java'
 }
-
+//web项目单应用
+apply plugin: 'war'
 group 'com.cloud.model'
 version '1.0-SNAPSHOT'
 
